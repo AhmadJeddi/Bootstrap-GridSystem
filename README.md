@@ -17,9 +17,9 @@
 ## 🧰 Utility Classes
 
 <ul>
-  <li>.container: max width with appropriate margin and padding</li>
-  <li>.container-fluid: full width container</li>
-  <li>.img-responsive: responsive images adapting to parent width</li>
+  <li>`.container`: max width with appropriate margin and padding</li>
+  <li>`.container-fluid`: full width container</li>
+  <li>`.img-responsive`: responsive images adapting to parent width</li>
 </ul>
 
 ---
@@ -50,7 +50,7 @@
     <div class="col-sm-4">Left</div>
     <div class="col-sm-4 col-sm-offset-4">Right</div>
   </div>
-</div>
+</div>```
 
 ---
 
