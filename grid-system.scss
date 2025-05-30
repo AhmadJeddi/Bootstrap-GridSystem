@@ -1,0 +1,117 @@
+@media only screen and (min-width: 1px) {
+  @for $i from 1 through 12 {
+    .col-xs-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-xs-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-xs-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-sm-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-sm-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-md-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-md-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-lg-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-lg-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-xl-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-xl-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 1140px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  @for $i from 1 through 12 {
+    .col-xxl-#{$i} {
+      width: #{8.333333% * $i};
+    }
+    .col-xxl-offset-#{$i} {
+      margin-inline-start: #{8.333333% * $i};
+    }
+  }
+  .col-xxl-offset-0 {
+    margin-inline-start: 0;
+  }
+  .container {
+    max-width: 1320px;
+  }
+}
+[class^="col-"] {
+  float: right;
+  padding: 0 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+.container-fluid {
+  width: 100%;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
