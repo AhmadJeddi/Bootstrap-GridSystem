@@ -9,12 +9,12 @@
 - ✅ 12-column layout with responsive breakpoints
 - ✅ Offset support for spacing between columns
 - ✅ Pure CSS (Sass-powered) – no JavaScript
-- ✅ RTL-compatible using `margin-inline-start`
 - ✅ No dependencies – easy to integrate
+- ✅ RTL-compatible
 
 ---
 
-## ## 🧰 Utilities
+## 🧰 Utilities
 
 The grid system includes a wide range of utility classes for layout, spacing, positioning, visibility, alignment, and more. These classes are lightweight, reusable, and designed to give you full control over your layout without writing custom CSS.
 
