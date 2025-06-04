@@ -10,7 +10,12 @@
   .col-xs-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
     max-width: 100%;
   }
 }
@@ -26,8 +31,15 @@
   .col-sm-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm {
     max-width: 540px;
+  }
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -42,8 +54,15 @@
   .col-md-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm,
+  .container-md {
     max-width: 720px;
+  }
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -58,8 +77,15 @@
   .col-lg-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
     max-width: 960px;
+  }
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -74,8 +100,15 @@
   .col-xl-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 1140px;
+  }
+  .container-xxl {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -90,12 +123,17 @@
   .col-xxl-offset-0 {
     margin-inline-start: 0;
   }
-  .container {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
     max-width: 1320px;
   }
 }
 [class^="col-"] {
-  float: right;
+  float: inline-start;
   padding: 0 15px;
 }
 .row::after {
@@ -103,15 +141,152 @@
   clear: both;
   display: table;
 }
-.container {
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
   margin-inline: auto;
   padding-inline: 15px;
 }
 .container-fluid {
   width: 100%;
 }
-.img-responsive {
+.img-fluid {
   width: 100%;
   height: auto;
   /* display: block; */
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.align-baseline {
+  vertical-align: baseline;
+}
+.align-top {
+  vertical-align: top;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.align-bottom {
+  vertical-align: bottom;
+}
+.align-text-top {
+  vertical-align: text-top;
+}
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+.text-start {
+  text-align: start;
+}
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+.text-justify {
+  text-align: justify;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-lighter {
+  font-weight: lighter;
+}
+.m-auto {
+  margin: auto;
+}
+.position-static {
+  position: static;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
+.position-sticky {
+  position: sticky;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.d-none {
+  display: none;
+}
+.d-inline {
+  display: inline;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.align-items-start {
+  align-items: start;
+}
+.align-items-end {
+  align-items: end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.align-items-stretch {
+  align-items: stretch;
 }
