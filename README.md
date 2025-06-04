@@ -101,6 +101,13 @@ The grid system includes a wide range of utility classes for layout, spacing, po
 | `.overflow-x-hidden` | `overflow-x: hidden` |
 | `.overflow-y-hidden` | `overflow-y: hidden` |
 
+### 📐 Width & Height
+
+| Class    | CSS Property   |
+| -------- | -------------- |
+| `.w-100` | `width: 100%`  |
+| `.h-100` | `height: 100%` |
+
 ### 📐 Margin
 
 | Class     | CSS Property   |
